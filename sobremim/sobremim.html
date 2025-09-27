@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre mim - Landing Page</title>
+<link rel="stylesheet" href="../sobremim.css">
+</head>
+<body>
+  <div class="sobremim">
+    <p>
+      Me chamo Fernanda, tenho 20 anos, sou nascida e criada em Vila Velha.
+      Tenho 4 irmãos, um deles sendo meu gêmeo. Atualmente curso Ciência da
+      Computação na Universidade Vila Velha, pois, apesar de não ser uma área
+      que inicialmente eu me identificasse, gosto de tecnologia e busco me
+      encontrar e me fascinar pelo curso e tudo o que ele pode oferecer. Sou
+      apaixonada por música, livros, filmes e pelo mundo. Sou entusiasta de
+      curiosidades históricas e sobre o passado do nosso planeta.
+    </p>
+
+    <img
+      src="../imagens/fernandabebe.jpeg"
+      alt="Meu aniversário de 1 ano"
+      width="200"
+    />
+
+    <p>
+      A música é uma das coisas mais importantes na minha vida, tenho 5 tatuadas
+      e todas significam muito pra mim.
+    </p>
+
+    <h3>Abaixo você poderá escutar as músicas pelo Youtube:</h3>
+
+    <div class="musicas">
+      <a
+        href="https://youtu.be/WvV5TbJc9tQ?si=4oRqFAB5U_sKvxPf"
+        target="_blank"
+        ><img src="../imagens/savethatshit.jpg" alt="Save That Shit" width="200"
+      /></a>
+      <a
+        href="https://youtu.be/BEMaH9Sm3lQ?si=ZUx50Y9sgJuKAWVA"
+        target="_blank"
+        ><img src="../imagens/serendipity.jpg" alt="Serendipity" width="200"
+      /></a>
+      <a
+        href="https://youtu.be/RmibkOh25uY?si=L4JVHI9gvAShn9en"
+        target="_blank"
+        ><img src="../imagens/nevernot.jpg" alt="Never Not" width="200"
+      /></a>
+      <a
+        href="https://youtu.be/nSDgHBxUbVQ?si=Hd1fsQVpQjVzHKaQ"
+        target="_blank"
+        ><img src="../imagens/photograph.jpg" alt="Photograph" width="200"
+      /></a>
+      <a
+        href="https://youtu.be/-J7J_IWUhls?si=EFxUmWwqlRkiJpHe"
+        target="_blank"
+        ><img src="../imagens/theonlyexception.jpg" alt="The Only Exception" width="200"
+      /></a>
+    </div>
+
+    <h3>
+      Por fim, abaixo deixarei o áudio da minha música favorita de todas: White
+      Ferrari, do meu cantor favorito, Frank Ocean.
+    </h3>
+
+    <img
+      src="../imagens/whiteferrari.png"
+      alt="Clique aqui para tocar White Ferrari"
+      width="200"
+      onclick="tocarAudio()"
+      style="cursor: pointer"
+    />
+
+    <audio id="meuAudio">
+      <source src="../musica/frank-ocean-white-ferrari.mp3.mp3" type="audio/mpeg" />
+      Seu navegador não suporta áudio.
+    </audio>
+
+    <h3>
+      Abaixo deixarei pelo Last Fm e meu Letterboxd, para conhecer mais do meu
+      gosto por músicas e filmes.
+    </h3>
+
+    <div class="link-icons">
+      <a href="https://www.last.fm/pt/user/lkosmos" target="_blank"
+        ><img src="../imagens/lastfm.jpg" alt="Last.fm" width="60"
+      /></a>
+      <a href="https://letterboxd.com/yykv/" target="_blank"
+        ><img src="../imagens/letterboxd.png" alt="Letterboxd" width="60"
+      /></a>
+    </div>
+
+    <h2>💼 Vida Profissional</h2>
+    <p>
+      Trabalhei por 3 anos na empresa Autoglass, iniciei como Jovem Aprendiz no
+      setor de Devolução Fornecimento, passei pelo estágio, até chegar à minha
+      efetivação. Trabalhei, por um pequeno período, como Assistente
+      Administrativo na Associação Boulevard Mar D'ule, em 2025.
+    </p>
+
+    <h2>🎯 Habilidades</h2>
+    <ul>
+      <li>Empatia</li>
+      <li>Comunicação</li>
+      <li>Facilidade em aprender</li>
+      <li>Trabalho sob pressão</li>
+      <li>Melhoria contínua</li>
+    </ul>
+  </div>
+
+  <script>
+    function tocarAudio() {
+      var audio = document.getElementById("meuAudio");
+      audio.play();
+    }
+  </script>
+</body>
+</html>

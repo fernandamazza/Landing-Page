@@ -1,0 +1,54 @@
+body {
+  background-color: black !important;
+  color: white !important;
+  font-family: Arial, sans-serif !important;
+  text-align: center !important;
+  margin: 0 !important;
+  padding: 20px !important;
+}
+
+.sobremim {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.sobremim > img {
+  border-radius: 15px;
+  border: 2px solid white;
+  margin: 10px auto;
+  display: block;
+  width: 200px;
+}
+
+.musicas img {
+  border-radius: 15px;
+  border: 2px solid white;
+  margin: 10px;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.musicas {
+  margin: 20px 0;
+}
+
+.link-icons img {
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 60px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+h2, h3 {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
