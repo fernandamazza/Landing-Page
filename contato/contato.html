@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../servicos.css"/>
+</head>
+<body>
+      <div class="contato">
+        <p> Caso tenha interesse em realizar um projeto comigo, preencha seus dados a seguir:</p>
+  <form>
+    <label>Nome Completo:</label><br>
+    <input type="text" name="nome"><br>
+
+    <label>Telefone:</label><br>
+    <input type="tel" name="telefone"><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br>
+    <br>
+    <label>Tipo de Pessoa:</label><br>
+    <select name="tipo">
+      <option value="fisica">Pessoa Física</option>
+      <option value="juridica">Pessoa Jurídica</option>
+    </select><br>
+    <br>
+    <label>Melhor horário para contato:</label><br>
+    <input type="checkbox" name="manha">Manhã
+    <input type="checkbox" name="tarde">Tarde
+    <input type="checkbox" name="noite">Noite<br>
+    <br>
+    <label>Tipo de serviço desejado:</label><br>
+    <select name="servico">
+      <option value="estatico">Site Estático</option>
+      <option value="dinamico">Site Dinâmico</option>
+      <option value="avancado">Site Avançado</option>
+    </select><br>
+    <br>
+    <label>Descrição do projeto:</label><br>
+    <textarea name="descricao" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Enviar Proposta">
+    </form>
+    <br>
+    </div>
+</body>
+</html>
